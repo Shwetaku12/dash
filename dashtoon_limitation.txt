@@ -1,0 +1,16 @@
+
+------------------------- Limitations and Potential Improvements -------------------------
+
+# Limitations:
+1. Complexity of Artistic Styles: The model may struggle with highly complex artistic styles that are not well-represented in the CIFAR-10 dataset.
+2. Dataset Size: CIFAR-10 is a relatively small dataset. For improved generalization, a larger and more diverse dataset of artworks could be used.
+
+# Potential Improvements:
+1. Transfer Learning: Utilize pre-trained models on larger image datasets for feature extraction, followed by fine-tuning on the artistic dataset.
+2. Data Augmentation: Increase dataset diversity by applying data augmentation techniques during training (rotation, flip, zoom).
+3. Hyperparameter Tuning: Experiment with different model architectures, hyperparameters, and optimization algorithms to enhance performance.
+4. Ensemble Methods: Combine predictions from multiple models or model snapshots to improve robustness.
+5. Attention Mechanisms: Incorporate attention mechanisms to allow the model to focus on specific regions, potentially capturing intricate artistic details better.
+6. User Interaction: Implement user feedback loops for the model to learn and adapt to specific user preferences over time.
+
+Overall, continuous experimentation and refinement are crucial for addressing limitations and enhancing the model's capabilities.
